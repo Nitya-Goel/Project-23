@@ -63,13 +63,7 @@ function keyPressed() {
  if (keyCode === DOWN_ARROW) {
     Matter.Body.setStatic(packageBody, false);
   }
-	else if(keyCode === RIGHT_ARROW) {
-	  packageSprite.x= packageSprite.x+5;
-  }
-  else if(keyCode === LEFT_ARROW) {
-	packageSprite.x= packageSprite.x-5;
-}
-}
+	
 
 
 
